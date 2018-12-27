@@ -6,7 +6,7 @@ import logging
 from telegram.ext import CommandHandler
 from py_translator import Translator
 
-updater = Updater(token='666459298:AAE0ZjLvafCHULiGRCf1sBDXbiZGOYMSoOc')
+updater = Updater(token = <YOUR_BOT_TOKEN>)
 dispatcher = updater.dispatcher
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
